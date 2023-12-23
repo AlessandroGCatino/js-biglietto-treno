@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Info Treni</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Inserisci i dati necessari per creare il tuo biglietto!</h2>
+    <div>
+
+        <label for="nKm">Quanti chilometri devi percorrere?</label>
+        <input type="number" name="numeroKM" id="nKm">
+    </div>
+    <br>
+    <div>
+
+        <label for="age">Quanti anni hai?</label>
+        <input type="number" name="eta" id="age">
+    </div>
+    <br>
+    <button onclick="generaBiglietto()">Genera Biglietto</button>
+
+    <h2>Il costo del tuo biglietto è:</h2>
+    <div id="results"></div>
+
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>
